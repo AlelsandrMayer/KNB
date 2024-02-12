@@ -89,9 +89,4 @@ public class RockPaperScissors {
         System.out.println("Выиграно: " + gamesWon);
         System.out.println("Проиграно: " + gamesLost);
     }
-
-    public static void main(String[] args) {
-        RockPaperScissors game = new RockPaperScissors();
-        game.playGame();
-    }
 }
